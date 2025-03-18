@@ -1,19 +1,21 @@
+import { Link } from "react-router-dom";
+
+
 const Nav = () => {
   return (
     <>
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/Login">Login</a>
+            <Link to="/Login">Login</Link>
           </li>
           <li>
-            <a href="/SignUp">SignUp</a>
+            <Link to="/SignUp">SignUp</Link>
           </li>
         </ul>
-        Nav not working
       </nav>
     </>
   );
