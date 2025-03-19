@@ -1,15 +1,16 @@
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import { ThemeProvider } from "./ThemeContext";
 import "../styles.css";
-import Login from "./Login";
 import Nav from "./Nav";
-import SignUp from "./SignUp";
 
 function App() {
   return (
     <>
-      <Nav />
-      <h1>Home Page, Landing Page</h1>
+      <ThemeProvider>
+        <Nav />
+        <h1>Home Page, Landing Page</h1>
+      </ThemeProvider>
     </>
   );
 }

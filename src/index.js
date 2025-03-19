@@ -10,6 +10,7 @@ import Poster from "./pages/Poster";
 import Dashboard from "./pages/Dashboard";
 import LinReg from "./pages/LinReg";
 import RanNos from "./pages/RanNos";
+import TempCon from "./pages/TempCon";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -24,6 +25,7 @@ root.render(
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="rannos" element={<RanNos />} />
         <Route path="linreg" element={<LinReg />} />
+        <Route path="tempcon" element={<TempCon />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

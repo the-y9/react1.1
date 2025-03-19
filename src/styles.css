@@ -3,8 +3,9 @@
   text-align: center;
 }
 
-
-.login-container, .SignUp-container{
+.login-container,
+.SignUp-container,
+.round-box-container {
   margin-top: 50px;
   margin-bottom: 50px;
   background: rgba(255, 255, 255, 0.1);
@@ -17,12 +18,27 @@
   text-align: center;
 }
 
+/* Default styles for nav */
 nav {
   background: rgba(25, 254, 55, 0.1);
   backdrop-filter: blur(8px);
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Light theme styles */
+.nav-light {
+  background: rgba(25, 254, 55, 0.1); /* Same for light theme */
+  color: #000;
+}
+
+/* Dark theme styles */
+.nav-dark {
+  background: rgba(0, 0, 0, 0.5); /* Darker background for dark theme */
+  color: #fff;
 }
 
 label {
